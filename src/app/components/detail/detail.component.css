@@ -1,0 +1,27 @@
+.back {
+  color: grey;
+  font-size: small;
+  font-style: italic;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.detail-name {
+  color: grey;
+  font-size: small;
+  font-style: italic;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.detail-body::first-letter {
+  text-transform: capitalize;
+}
+
+.comments {
+  margin-top: 20px;
+}
+
+.detail-title:first-letter {
+  text-transform: capitalize;
+}

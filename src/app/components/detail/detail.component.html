@@ -1,0 +1,15 @@
+<div>
+  <a class="back" routerLink="/">Back to main page</a>
+  <h1 class="detail-title">
+    {{ article?.title }}
+  </h1>
+  <h3 class="detail-name">{{ article?.name }}</h3>
+  <p class="detail-body">
+    {{ article?.body }}
+  </p>
+  <h1 class="comments">Comments</h1>
+  <app-comment-item
+    *ngFor="let comment of articleComments"
+    [comment]="comment"
+  ></app-comment-item>
+</div>

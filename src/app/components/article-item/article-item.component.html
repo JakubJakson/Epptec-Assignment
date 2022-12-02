@@ -1,0 +1,21 @@
+<div class="article">
+  <div>
+    <h3>
+      {{ article.title.charAt(0).toUpperCase() + article.title.slice(1) }}
+    </h3>
+    <p class="name">
+      {{ article.name }}
+    </p>
+
+    <p #articleBody>
+      {{
+        article.body.charAt(0).toUpperCase() +
+          article.body.slice(1, 130) +
+          "..."
+      }}
+    </p>
+    <a class="detail" #detail [routerLink]="['/detail', article.id]"
+      >Show more...</a
+    >
+  </div>
+</div>

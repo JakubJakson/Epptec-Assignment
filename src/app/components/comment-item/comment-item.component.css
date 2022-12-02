@@ -1,0 +1,21 @@
+.comment {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.comment-title::first-letter {
+  text-transform: capitalize;
+}
+.email {
+  font-size: small;
+  font-style: italic;
+  color: grey;
+  margin-bottom: 10px;
+}
+.comment-body:first-letter {
+  text-transform: capitalize;
+}

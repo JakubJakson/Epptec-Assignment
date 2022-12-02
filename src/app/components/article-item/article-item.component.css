@@ -1,0 +1,27 @@
+.article {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  margin: 5px auto;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.name {
+  font-size: small;
+  font-style: italic;
+  color: grey;
+  text-decoration: underline;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.detail {
+  margin-top: 25px;
+  color: grey;
+  font-style: italic;
+  font-size: small;
+  text-decoration: underline;
+  cursor: pointer;
+  display: block;
+}
